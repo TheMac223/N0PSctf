@@ -80,3 +80,24 @@ while True:
                 if name == "admin":
                     admin()
 ```
+
+이문제는 admin 으로 로그인한 상태로 admin 옵션을 선택하면 플래그가 뜨는 간단한 문제
+
+딱 보자마자 들었던 생각은 
+```python
+def create_account():
+    name = input("Enter your username: ")
+    names = os.listdir("./log")
+    while name in names or name == "":
+        name = input("This username is either already used or empty! Enter another one: ")
+    passwd = input("Enter a password: ")
+    log = open(f"./log/{name}", 'w')
+    log.write(f"Password : {hashlib.md5(passwd.encode()).hexdigest()}\n")
+    print("\nAccount was successfully created!")
+    log.close()
+```
+여기서 name 변수에 ./admin 이 들어간다면 ? 이라는 호기심 이었고 시도해본 결과
+![jojochat](https://github.com/DA2RIM/N0PSctf/assets/171825457/8ddd4706-3f4b-4670-bbb6-ae623469df52)
+![jojochat2](https://github.com/DA2RIM/N0PSctf/assets/171825457/825485e9-adce-4b27-913d-f34bea7fd824)
+
+
