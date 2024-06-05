@@ -1,7 +1,7 @@
 ![image](https://github.com/DA2RIM/N0PSctf/assets/171825457/1bab3c00-50ef-494d-884d-2356b13a54d1)
 
 outsider라고 하는걸 보니 외부인에게는 플래그를 보여주지 않겠다 하는거 같은데.. 그럼 바꿀껀 ip 정도라고 생각이 들어서 ip를 루프백으로 바꿔서 리퀘스트를 보냄
-
+(최근 풀었었던 드림핵 웹해킹 문제도 X-Forwarded-For 헤더로 아이피를 변조해서 보내는 문제였어서 참고했음)
 ``` python
 import requests
 import urllib3
