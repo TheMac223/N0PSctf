@@ -4,7 +4,7 @@
 
 현재까지 참여한 ctf중에 가장 높은 점수를 획득한 CTF
 
-푼 문제 (write up이 필요없는 문제들 제외)
+푼 문제 (너무 쉽거나 gpt로 푼 문제들은 write up 제외)
 1. Jojo Chat 1/2
 2. Morse Me
 3. Web Cook
