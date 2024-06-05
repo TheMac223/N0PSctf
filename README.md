@@ -7,9 +7,8 @@
 푼 문제 (너무 쉽거나 gpt로 푼 문제들은 write up 제외)
 1. Jojo Chat 1/2
 2. Morse Me
-3. Web Cook
-4. OutSiders
-5. XSS Lab
+3. OutSiders
+4. XSS Lab
 
 풀진 못했지만 Reverse Me 문제도 write up 작성
 
