@@ -14,4 +14,5 @@
 ![image](https://github.com/DA2RIM/N0PSctf/assets/171825457/31de27c5-2a39-4d1d-b107-5e39b667302c)
 -> 이후에 900점대까지 떨어짐 ㅎㅎ;
 
-![image](https://github.com/DA2RIM/N0PSctf/assets/171825457/5b12459e-e872-4af2-b529-4a5e68052fbf)
+![image](https://github.com/DA2RIM/N0PSctf/assets/171825457/bab1c799-e72b-46e4-97bf-f09a48bd5923)
+
